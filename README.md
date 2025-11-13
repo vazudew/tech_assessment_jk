@@ -24,10 +24,10 @@ The objective of the challenge is to prepare a mechanism to install/configure Je
 
 
 ## <a name="fin"></a> Final Details
-1. [Assignment Document](assignment.md) 
+1. [Assignment Document](./docs/assignment.md) 
 2. [Source Code Link](https://github.com/vazudew/tech_assessment_jk)
 3. [Execution Instructions](#exec)
-4. [Answers](technical_challenge_assignment_report.pdf)
+4. [Answers](./docs/technical_challenge_assignment_report.pdf)
 
 ## <a name="reqs"></a> Some thoughts on Requirements
 (a) _The solution must run on a clean installation of the chosen operating system
@@ -190,9 +190,9 @@ jenkins_url = "http://18.196.90.186:8000"
 ```
 8. Please fetch the admin user password by logging into the EC2 instance using _AWS Session Manager_. The password will be the content of file _/var/lib/jenkins/secrets/initialAdminPassword_
 
-9. You can also use *acceptance_test.py* script that is shipped with this repo, for ensuring the jenkins in fact is accessible, with *admin* user.
+9. You can also use *acceptance_test.py* script under *test_scripts_ folder that is shipped with this repo, for ensuring the jenkins in fact is accessible, with *admin* user.
 ```bash
-python3 acceptance_test.py --url "http://<Public_IP_Jenkins_Server>:<Jenkins_Port>/" --username admin --password <ADMIN_PASSWORD>
+python3 test_scripts/acceptance_test.py --url "http://<Public_IP_Jenkins_Server>:<Jenkins_Port>/" --username admin --password <ADMIN_PASSWORD>
 [✅] Jenkins URL is reachable and credentials are valid: http://18.192.182.142:8000
 Jenkins version: 2.528.2
 Number of jobs: 0

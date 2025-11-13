@@ -1,0 +1,7 @@
+*.conf
+*.env
+*.lock*
+*.hcl*
+*.log*
+*.terraform*
+*.plan
