@@ -25,7 +25,7 @@ The objective of the challenge is to prepare a mechanism to install/configure Je
 
 ## <a name="fin"></a> Final Details
 1. [Assignment Document](assignment.md) 
-2. [Source Code Link]()
+2. [Source Code Link](https://github.com/vazudew/tech_assessment_jk)
 3. [Execution Instructions](#exec)
 4. [Answers]()
 
@@ -241,3 +241,15 @@ Here are some of the screenshots of accomplishments.
 
 
 ## <a name="useful"></a> Useful Links
+| **Sl. No.** | **Link** | **Remarks** |
+----------|--------------|--------------
+| 1| [Official Jenkins Installation](https://www.jenkins.io/doc/book/installing/linux/#debianubuntu) | _bash_ script to install pre-requisites, jenkins binaries |
+|2| [Jenkins Port Setup](https://www.jenkins.io/doc/book/installing/initial-settings/)| Jenkins configurations and options |
+|3|[_override.conf_ nuances in Jenkins](https://www.jenkins.io/blog/2022/03/25/systemd-migration/) | Understanding parameter changes in Jenkins|
+|4| [_AWS System Manager_](https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-setting-up-ec2.html) | Basics on EC2 config management AWS Style|
+|5| [_AWS System Manager Runbook_](https://docs.aws.amazon.com/systems-manager/latest/userguide/automation-documents.html)| executing _Run_ Commands on managed EC2 instances |
+|6|[_AWS EC2 User Data_](https://docs.aws.amazon.com/pcs/latest/userguide/working-with_ec2-user-data.html) | Ground work for EC2 user data and scripts |
+|7| [_Hashicorp Terraform Documentation_](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance.html)| Documentation for various _AWS_ resource creation|
+|8|[Terraform EC2 Module](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance) | easy to use, tested modules for fast deployment |
+|9| [Puppet Introduction](https://www.puppet.com/why-puppet/use-cases/continuous-configuration-automation)| Basic understanding of _Puppet_ works|
+|10| [ChatGPT](https://chatgpt.com/)| Quicker syntax free code samples |
