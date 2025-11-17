@@ -63,5 +63,6 @@ sudo ss -tuln | grep 8000 | tee -a "$LOGFILE"
 # useful details
 # -------------------------------
     # URL: http://<your-server-ip>:8000"
+    # sudo find / -type f -name 'jenkins_installer*'
     # Initial admin password:"
     # sudo cat /var/lib/jenkins/secrets/initialAdminPassword

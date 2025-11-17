@@ -1,3 +1,8 @@
+.PHONY: awsid
+awsid:
+	set -ex \
+	&& aws sts get-caller-identity 
+
 .PHONY: tf-init
 tf-init:
 	set -ex \

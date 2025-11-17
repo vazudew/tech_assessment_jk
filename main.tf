@@ -46,7 +46,7 @@ module "jenkins_server" {
   iam_instance_profile = aws_iam_instance_profile.jenkins_server_iam_profile.name
   vpc_security_group_ids = [aws_security_group.allow_jenkins_port_sg.id]
   create_security_group = false
-  user_data_base64 = base64encode(file("${path.module}/scripts/jenkins_installer.sh"))
+  user_data_base64 = base64encode(file("${path.module}/jenkins_scripts/jenkins_installer.sh"))
   user_data_replace_on_change = true
   depends_on = [aws_iam_instance_profile.jenkins_server_iam_profile, aws_security_group.allow_jenkins_port_sg]
 }
