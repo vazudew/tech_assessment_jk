@@ -252,5 +252,5 @@ Here are some of the screenshots of accomplishments.
 |7| [_Hashicorp Terraform Documentation_](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance.html)| Documentation for various _AWS_ resource creation|
 |8|[Terraform EC2 Module](https://github.com/terraform-aws-modules/terraform-aws-ec2-instance) | easy to use, tested modules for fast deployment |
 |9| [Puppet Introduction](https://www.puppet.com/why-puppet/use-cases/continuous-configuration-automation)| Basic understanding of _Puppet_ works|
-
 |10| [ChatGPT](https://chatgpt.com/)| Quicker syntax free code samples |
+
